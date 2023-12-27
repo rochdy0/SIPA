@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player{
 
-    public CardStack hand;
+    private CardStack hand;
     private string name;
 
     public Player(string name){
